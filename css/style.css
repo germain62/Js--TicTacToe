@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+ }
+ @font-face {
+   font-family: "learn";
+   src: url("../font/LearningCurve.ttf");
+ }
+ @font-face {
+   font-family: "dark";
+   src: url("../font/DarkLarch_PERSONAL_USE.ttf");
+ }
+
+ body{
+   background-image: url(../image/morpion.jpg);
+   background-size: cover;
+ }
+ #center{
+   position: absolute;
+   margin: auto;
+   margin-top: 150px;
+   margin-left: 400px;
+   height: 450px;
+   width: 400px;
+   background-color: rgba(255, 255, 255, 0.56);
+ }
+ h1{
+   position: absolute;
+   margin-left: 440px;
+   margin-top: 40px;
+   font-family: "dark";
+   font-size: 60px;
+   color: rgba(24, 22, 20, 0.86);
+
+ }
+ td{
+   position: relative;
+   height: 100px;
+   width: 100px;
+   border: 2px solid black ;
+ }
+ #tableau{
+   position: absolute;
+   border-collapse: collapse;
+   margin-left: 50px;
+   margin-top: 50px;
+ }
+ .player1{
+   background-image: url(../image/croix1.png);
+   background-size: contain;
+ }
+ .player2{
+   background-image: url(../image/cercle.png);
+   background-size: contain;
+ }
+ #winner{
+   display : none;
+   flex-direction: column;
+   justify-content:center;
+   position: absolute;
+   height: 200px;
+   width: 250px;
+   margin-top : 150px;
+   text-align: center;
+   background-color: rgba(255, 255, 255, 0.44);
+
+   margin-left: 100px;
+ }
+input{
+  margin-left:150px;
+
+}
+#score{
+  position: absolute;
+}
+#p1{
+  position: absolute;
+}
+#p2{
+  position: absolute;
+  margin-left: 200px;
+}
